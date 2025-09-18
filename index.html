@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Sign up</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h2>Create Account</h2>
+        <div class="main">
+            <form>
+                <input type="text" placeholder="Username" class="input" required>
+                <input type="tel" placeholder="Mobile number" class="input"  pattern="[0-9]{10}" required>
+                 <input type="email" placeholder="E-mail" class="input"  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}" required>
+                  <input type="password" placeholder="Set Password" class="input" pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&]).+"  required>
+                   <input type="password" placeholder="Confirm Password" class="input" pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&]).+"  required>
+                   <br><br>
+                   <label><input type="checkbox" required> I agree to the terms and conditions</label>
+
+
+                   <br><br>
+                   <button type="submit">Sign up</button>
+
+            </form>
+        </div>
+    </body>
+</html>
